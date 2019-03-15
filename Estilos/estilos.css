@@ -21,4 +21,11 @@ html
 *, *:before, *:after 
 {
     box-sizing: inherit;
+
+}
+.barra navegacion a
+{
+    background-color: var(--azulOscuro);
+    text-decoration: none;
+    font-family: var(--fuentePrincipal);
 }
