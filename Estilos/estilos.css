@@ -15,7 +15,11 @@
 html
 {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 100%;
+}
+img 
+{
+    max-width: 50%;
 }
 
 *, *:before, *:after 
@@ -23,40 +27,43 @@ html
     box-sizing: inherit;
 
 }
-.barra navegacion a
-{
-    background-color: var(--azulOscuro);
-    text-decoration: none;
-    font-family: var(--fuentePrincipal);
+.header {
+    display: grid;
+    justify-content: right;
+    padding: 1rem 0;
 }
-
 
 .barra
 {
     background-color: var(--azulOscuro);
-    padding: 1rem 0;
+    
 }
-
 
 .barra .navegacion a
 {
     font-family: var(--fuentePrincipal);
-    font-size: 3rem;
-    padding: 1200px 0;
+    font-size: 1rem;
     text-decoration: none;
     color:var(--blanco);
 }
 
+.barra .navegacion a:hover {
+    color: var(--naranjaClaro);
+}
+
 .hero
 {
-    
+    background-color: var(--azulOscuro);
 }
+
 .hero .contenido-hero a
 {
     color: var(--naranjaClaro);
     text-decoration: none;
     padding: 2rem 0;
 }
+
+
 
 /* PLANES */
 .contenedor-servicios
@@ -91,6 +98,7 @@ html
 /* CARACTERISTICAS */
 .contenedor-caracteristicas
 {
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
@@ -113,5 +121,23 @@ html
 {
     color: var(--gris);
     text-align: center;
+
+}
+
+/* Contactenos */
+
+.contacto
+{
+    text-align: left;
+}
+
+
+/* COPYRIGHT */
+.footer 
+{
+    color: var(--gris);
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    padding: 1rem 0;
 
 }
