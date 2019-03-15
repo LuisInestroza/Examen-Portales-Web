@@ -1,0 +1,24 @@
+:root
+{
+    /* Estilo de letra */
+    --fuentePrincipal: 'Montserrat', 'Light', 'Regular', Medium, Bold;
+
+    /* Colores */
+    --azulOscuro: #0264fb;
+    --naranjaClaro: #ffb03a;
+    --negro: #000000;
+    --gris: #4b4b4b;
+    --blanco: #ffffff;
+
+}
+
+html
+{
+    box-sizing: border-box;
+    font-size: 60%;
+}
+
+*, *:before, *:after 
+{
+    box-sizing: inherit;
+}
