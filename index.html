@@ -1,178 +1,233 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Genisys Hostingt</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Genisys Hostingt</title>
 
-    <!-- Acceder a las hojas de estilo -->
-    <link rel="stylesheet" href="Estilos/estilos.css">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <!-- Acceder a las hojas de estilo -->
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <!-- Links de iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 </head>
+
 <body>
-    <div class="barra">
-        <h1>Genesys Hosting</h1>
-        <nav class="navegacion">
-            <a href="#">Inicio</a>
-            <a href="#">Planes</a>
-            <a href="#">Características</a>
-            <a href="#">Contactenos</a>
-            <a href="#">Iniciar Sesión</a>
-            <a href="#">Registrarse</a>
-        </nav>
-    </div>
 
+  <header class="header">
+    <p>Genesys Hosting</p>
+    <nav class="navegacion">
+      <a href="#">Inicio</a>
+      <a href="#">Planes</a>
+      <a href="#">Características</a>
+      <a href="#">Contactenos</a>
+      <a href="#">Iniciar Sesión</a>
+      <a href="#" class="registro">Registrarse</a>
+    </nav>
     <div class="hero">
-         
-        <div class="contenido-hero">
-            <h1>!Tus Sitios Web accesibles siempre!</h1>
-            <p>El Web hosting mas FÁCIL y ECONÓMICO.</p>
-            <P>Funcionamos incluso durante la rebelion de las maquinas</P>
-            <p>Comenzando a sólo L 700/mes*</p>
-            <a href="#registro" class="boton">Registrarse</a>
-            <img src="imagenes/Hero Cloud Server Illustration.png" alt="hero">
+      <div class="contenido-hero">
+        <div class="descripcion">
+          <h1>!Tus Sitios Web accesibles siempre!</h1>
+          <p>El Web hosting mas FÁCIL y ECONÓMICO.</p>
+          <p>Funcionamos incluso durante la rebelion de las maquinas</p>
+          <p>Comenzando a sólo L 700/mes*</p> <br><br>
+          <a href="#registro" class="boton">Registrarse</a>
         </div>
+        <div>
+          <img src="img/Hero Cloud Server Illustration.png" alt="hero" />
+        </div>
+      </div>
     </div>
+    <div class="waver">
+      <img src="/img/Path 2.png" alt="" srcset="">
+    </div>
+  </header>
 
 
-    <!-- Servicios -->
-    <div class="contenedor">
-        <main class="servicios">
-            <h2>Elige un plan a medida</h2>
-            <p>Encuentra el plan que satisface tus necesidades y comienza
-                a constriur tu sitio Web personal o de negocios
+
+  <!-- Servicios -->
+  <div class="contenedor">
+    <main class="servicios">
+      <h2>Elige un plan a medida</h2>
+      <p>
+        Encuentra el plan que satisface tus necesidades y comienza <br />
+        a constriur tu sitio Web personal o de negocios
+      </p>
+      <div class="contenedor-servicios">
+        <div class="servicio">
+          <div class="cabecera">
+            <h3>HOSTING COMPARTIDO</h3>
+            <p class="descripcion-servicio">Ideal para pequeñas empresas & freelancers</p>
+          </div>
+          <div class="comienzo">
+            <p>comienza en</p>
+            <p class="precio">L 100/mes</p>
+          </div>
+          <div class="compra">
+            <p>Comprar</p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="cabecera">
+            <h3>HOSTING MANEJABLE</h3>
+            <p class="descripcion-servicio">
+              Sitio Web de alto desempeño siempre disponible y manejando por
+              nuestro equipo de robots
             </p>
-
-            <div class="contenedor-servicios">
-                <div class="servicio">
-                    <h3>HOSTING COMPARTIDO</h3>
-                    <p>ideal para pequeñas empresas &
-                        freelancers
-                    </p>
-                    <p>comienza en</p>
-                    <h2>L 100/mes</h2>
-                    <P>Comprar</P>
-                </div>
-                <div class="servicio">
-                    <h3>HOSTING MANEJABLE</h3>
-                    <p>Sitio Web de alto desempeño siempre disponible
-                        y manejando por nuestro equipo de robots
-                    </p>
-                    <p>comienza en</p>
-                    <h2>L 1500/mes</h2>
-                    <P>Comprar</P>
-                </div>
-                <div class="servicio">
-                    <h3>HOSTING VIRTUALES</h3>
-                    <p> Empresas con sitios profesionales.
-                        Que requieren servidores virtuales de alto grado con cPanel
-                    </p>
-                    <p>comienza en</p>
-                    <h2>L 2500/mes</h2>
-                    <P>Comprar</P>
-                </div>
-                <div class="servicio">
-                    <h3>HOSTING DEDICADOS</h3>
-                    <p> Obtén tu propio servidor dedicado y realizado
-                        lo uqe desees en el.
-                    </p>
-                    <p>comienza en</p>
-                    <h2>L 4000/mes</h2>
-                    <P>Comprar</P>
-                </div>
-                
-            </div>
-        </main>
-    </div>
-
-    <!-- Servicios -->
-    <div class="contenedor">
-        <main class="caracteristicas">
-            <h2>Caracteristicas</h2>
-            <p>!Te brindamos los mejores precio, la mejor calidad y un servicio conjunto
-                de caracteristicas para tus sitios destaquen!
+          </div>
+          <div class="comienzo">
+            <p>comienza en</p>
+            <p class="precio">L 1500/mes</p>
+          </div>
+          <div class="compra">
+            <p>Comprar</p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="cabecera">
+            <h3>HOSTING VIRTUALES</h3>
+            <p class="descripcion-servicio">
+              Empresas con sitios profesionales. Que requieren servidores
+              virtuales de alto grado con cPanel
             </p>
+          </div>
+          <div class="comienzo">
+            <p>comienza en</p>
+            <p class="precio">L 2500/mes</p>
+          </div>
+          <div class="compra">
+            <p>Comprar</p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="cabecera">
+            <h3>HOSTING DEDICADOS</h3>
+            <p class="descripcion-servicio">
+              Obtén tu propio servidor dedicado y realizado lo uqe desees en el.
+            </p>
+          </div>
+          <div class="comienzo">
+            <p>comienza en</p>
+            <p class="precio">L 4000/mes</p>
+          </div>
+          <div class="compra">
+            <p>Comprar</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
 
-            <div class="contenedor-caracteristicas">
-                <div class="caracteritica">
-                    <h4>99.9% UPTIME</h4>
-                    <p>
-                        !Ni John Connor puede detenernos
-                    </p>
+  <!-- Servicios -->
+  <div class="contenedor">
+    <main class="caracteristicas">
+      <h2>Características</h2>
+      <p>
+        !Te brindamos los mejores precio, la mejor calidad y un <br />
+        servicio conjunto de caracteristicas para tus sitios destaquen!
+      </p>
 
-                </div>
-                <div class="caracteritica">
-                    <h4>HOSTING MANEJABLE</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut 
-                        pretium pretium tempor. Ut eget
-                    </p>
-            
-                </div>
-                <div class="caracteritica">
-                    <h3>SEGURIDAD</h3>
-                    <p> 
-                        Nuestros T-800 y T-1000 se aseguran del cuidado de tu información
-                    </p>
-                    
-                </div>
-                <div class="caracteritica">
-                    <h4>CONTROL DNS</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut
-                        pretium pretium tempor. Ut eget
-                    </p>
-                
-                </div>
-                <div class="caracteritica">
-                    <h4>DOMAIN TRANFER</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut
-                        pretium pretium tempor. Ut eget
-                    </p>
-                </div>
-                <div class="caracteritica">
-                    <h4>Garantía 99.9%</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut
-                        pretium pretium tempor. Ut eget
-                    </p>
-                
-                </div>
-                
-            </div>
-        </main>
+      <div class="contenedor-caracteristicas">
+        <div class="caracteristica">
+          <img src="img/Group 16.png" alt="" />
+          <div class="detalle">
+            <h4>99.9% UPTIME</h4>
+            <p>
+              !Ni John Connor puede detenernos
+            </p>
+          </div>
+        </div>
+        <div class="caracteristica">
+          <img src="img/Group 20.png" alt="" />
+          <div class="detalle">
+            <h4>HOSTING MANEJABLE</h4>
+            <p>
+              Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut
+              pretium pretium tempor. Ut eget
+            </p>
+          </div>
+        </div>
+        <div class="caracteristica">
+          <img src="img/Group 25.png" alt="" />
+          <div class="detalle">
+            <h3>SEGURIDAD</h3>
+            <p>
+              Nuestros T-800 y T-1000 se aseguran del cuidado de tu
+              información
+            </p>
+          </div>
+        </div>
+        <div class="caracteristica">
+          <img src="img/Group 18.png" alt="" />
+          <div class="detalle">
+            <h4>CONTROL DNS</h4>
+            <p>
+              Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut
+              pretium pretium tempor. Ut eget
+            </p>
+          </div>
+        </div>
+
+        <div class="caracteristica">
+          <img src="img/Group 23.png" alt="" />
+          <div class="detalle">
+            <h4>DOMAIN TRANFER</h4>
+            <p>
+              Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut
+              pretium pretium tempor. Ut eget
+            </p>
+          </div>
+        </div>
+        <div class="caracteristica">
+          <img src="img/Group 30.png" alt="" />
+          <div class="detalle">
+            <h4>Garantía 99.9%</h4>
+            <p>
+              Lorem ipsum dolor sit amet consecteur adipipiscing elit. Ut
+              pretium pretium tempor. Ut eget
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Contactenos -->
+  <div class="contacto">
+    <div>
+      <h1>Contáctenos</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consecteur adipiscing elit. Ut pretium
+      </p>
     </div>
 
-    <!-- Contactenos -->
-    <div id="contacto" class="contacto">
-        <h1>Contáctenos</h1>
-        <div class="contenedor-campos">
-            <div class="campo">
-                <label for="correo">Correo Electronico</label>
-            </div>
-        </div>
-        <div class="contenedor-campos">
-            <div class="campo">
-                <label for="telefono">Telefono</label>
-            </div>
-        </div>
-        <div class="contenedor-campos">
-            <div class="campo">
-                <label for="direccion">Direccion</label>
-            </div>
-        </div>
+    <div class="contenedor-campos">
+      <div class="campo">
+        <i class="fa fa-envelope"></i>
+        <h5>hello@genesys.com</h5>
+        <label for="correo">Correo Electrónico</label>
+      </div>
+      <div class="campo">
+        <i class="fa fa-mobile"></i>
+        <h5>+504 9000-0000</h5>
+        <label for="telefono">Teléfono</label>
+      </div>
+      <div class="campo">
+        <i class="fa fa-map-marker-alt"></i>
+        <h5>Siguatepeque, Comayagua</h5>
+        <label for="direccion">Dirección</label>
+      </div>
     </div>
+  </div>
 
-    <!-- COPYRIGHT -->
-    <footer class="footer">
-        <p>Copyright Skynet Enterprises LTD 1999-2019</p>
-    
-    </footer>
-
-
-
-    
+  <!-- COPYRIGHT -->
+  <footer class="footer">
+    <p>Copyright Skynet Enterprises LTD 1999-2019</p>
+  </footer>
 </body>
+
 </html>
